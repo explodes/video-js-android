@@ -1,0 +1,15 @@
+/* Show the controls (hidden at the start by default) */
+.video-js .vjs-control-bar { display: block; }
+
+/* Make the CDN fonts accessible from the CSS */
+@font-face {
+font-family: 'VideoJS';
+src: url('http://vjs.zencdn.net/f/1/vjs.eot');
+src: url('http://vjs.zencdn.net/f/1/vjs.eot?#iefix') format('embedded-opentype'),
+  url('http://vjs.zencdn.net/f/1/vjs.woff') format('woff'),
+  url('http://vjs.zencdn.net/f/1/vjs.ttf') format('truetype');
+}
+
+/* Make the demo a little prettier */
+body { background: #222; text-align: center; }
+.video-js { margin: 20px auto; }
